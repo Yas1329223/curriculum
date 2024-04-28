@@ -296,3 +296,16 @@ p
         grid-template-columns: repeat(2,1fr);
     }
 }
+
+@media ( ancho máximo :  600 px )
+{
+    acerca de . caja
+    {
+        dirección flexible : columna;
+    }
+    . interés  ul
+    {
+        columnas-plantilla-cuadrícula :  repetir ( 1 , 1 fr );
+
+    }
+}
