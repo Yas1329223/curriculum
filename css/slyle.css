@@ -300,7 +300,7 @@ p
 
 @media (max-width: 600px)
 {
-    .about.box
+    .about .box
     {
         flex-direction: column;
     }
@@ -310,11 +310,10 @@ p
     }
     .interest ul
     {
-        grid-template-colums: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr);
     }
     .skills .box
     {
-        rid-template-colums: repeat(1,1fr);
-    }
-    
+        grid-template-columns: repeat(1,1fr);
+    } 
 }
