@@ -284,6 +284,7 @@ p
     font-size: 18px;
 }
 
+
 @media (max-width: 1000px)
 {
     .container
@@ -297,15 +298,23 @@ p
     }
 }
 
-@media ( ancho máximo :  600 px )
+@media (max-width: 600px)
 {
-    acerca de . caja
+    .about.box
     {
-        dirección flexible : columna;
+        flex-direction: column;
     }
-    . interés  ul
+    .about .box .year_company
     {
-        columnas-plantilla-cuadrícula :  repetir ( 1 , 1 fr );
-
+        margin-bottom: 5px;
     }
+    .interest ul
+    {
+        grid-template-colums: repeat(1,1fr);
+    }
+    .skills .box
+    {
+        rid-template-colums: repeat(1,1fr);
+    }
+    
 }
