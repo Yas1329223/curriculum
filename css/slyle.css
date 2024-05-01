@@ -317,18 +317,26 @@ p
         grid-template-columns: repeat(1,1fr);
     } 
 }
-@media (max-width: 1000px) {
-    .contacto {
+
+@media (max-width: 1000px) 
+{
+    .contacto
+    {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media (max-width: 600px) {
-    .contacto .left_side,
-    .contacto .ringht_side {
-        width: 100%; /* Ajustar el ancho para que ocupe toda la pantalla */
-        padding: 20px; /* Ajustar el relleno para mejorar el espaciado */
-        margin: 10px 0; /* Ajustar el margen para separar los elementos */
+@media (max-width: 600px)
+{
+    .contacto .left_side .contacto .ringht_side 
+    {
+        width: 100%;
+        padding: 20px;
+        margin: 10px 0;
+    }
+
+    .contactInfo .about 
+    {
+        margin-bottom: 30px; /* Ajustar el margen entre los elementos */
     }
 }
-
